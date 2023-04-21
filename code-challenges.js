@@ -21,15 +21,40 @@ const fruit4 = "kiwi"
 // --------------------1) Create a function that takes in a number and determines if the given number is below boiling point, at boiling point, or above boiling point. Boiling point is 212 degrees Fahrenheit. Use the test variables provided below.
 
 // Pseudo code:
+// input: 
+// output:
+// process:
+//   create function called boilingPoint
+//   determine the value for the parameters, temp1/2/3
+//   develop conditional statement
+//   return "42 is below boiling point" if the parameter value is below 212 degrees
+//   return "212 is at boiling point" if the parameter value is AT 212 degrees
+//   return "212 is above boiling point" if parameter value is above 212 degrees
+//       conditionals)
+// 
+
+
+const boilingPoint = (waterTemp) => {
+    if (waterTemp = temperature1) 
+    return "42 is below boiling point"
+} else if {
+    (waterTemp = temperature2) {
+    return "350 is above boiling point"
+    }} else if {(waterTemp = temperature3) 
+    return "212 is at boiling point"}
+
+
+console.log(boilingPoint(temperature1))
 
 const temperature1 = 42
 // Expected output: "42 is below boiling point"
-
 const temperature2 = 350
 // Expected output: "350 is above boiling point"
-
 const temperature3 = 212
 // Expected output: "212 is at boiling point"
+
+
+//____________________________________________________________________________________
 
 // --------------------2) Create the code that will combine the two arrays and return the length using the test variables provided below.
 
