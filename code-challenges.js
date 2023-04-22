@@ -34,23 +34,23 @@ const fruit4 = "kiwi"
 // 
 
 
-const boilingPoint = (waterTemp) => {
-    if (waterTemp = temperature1) 
-    return "42 is below boiling point"
-} else if {
-    (waterTemp = temperature2) {
-    return "350 is above boiling point"
-    }} else if {(waterTemp = temperature3) 
-    return "212 is at boiling point"}
+// const boilingPoint = (waterTemp) => {
+//     if (waterTemp = temperature1) 
+//     return "42 is below boiling point"
+// } else if {
+//     (waterTemp = temperature2) {
+//     return "350 is above boiling point"
+//     }} else if {(waterTemp = temperature3) 
+//     return "212 is at boiling point"}
 
 
-console.log(boilingPoint(temperature1))
+// console.log(boilingPoint(temperature1))
 
-const temperature1 = 42
-// Expected output: "42 is below boiling point"
-const temperature2 = 350
-// Expected output: "350 is above boiling point"
-const temperature3 = 212
+// const temperature1 = 42
+// // Expected output: "42 is below boiling point"
+// const temperature2 = 350
+// // Expected output: "350 is above boiling point"
+// const temperature3 = 212
 // Expected output: "212 is at boiling point"
 
 
@@ -62,7 +62,21 @@ const temperature3 = 212
 
 const padres1984WorldSeriesRuns = [2, 5, 2, 2, 4]
 const padres1998WorldSeriesRuns = [6, 3, 5, 3]
+
+//console.log(padres1984WorldSeriesRuns.push(padres1998WorldSeriesRuns))
 // Expected output: 9
+//Pseudo Code:
+//input: create var that combines both const indexOf for combined arrays
+//output: console.log(.indexOf) new 
+//process: 
+//  -create function called worldSeries
+//  -.concat the two consts 
+//bring the two arrays together and find the length
+
+
+
+
+//____________________________________________________________________________________
 
 // --------------------3) Create the code that will reverse the letters of a string using the test variable provided below.
 

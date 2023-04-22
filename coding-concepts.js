@@ -18,7 +18,7 @@ const cohort = "LEARN 2023"
 // console.log(cohort.length)
 
 // a) Your answer: 10
-// b) Verify and explain: The answer was 10. Length determines the actual character length of the datatype, including spaces.
+// b) Verify and explain: The output was 10. Length gives a numerical value to the character length of the value, including spaces. 
 
 // --------------------2) What will this log?
 
@@ -35,20 +35,20 @@ const index = 1
 //console.log(languages[index])
 
 // a) Your answer: Javascript
-// b) Verify and explain: Ruby. As an array, the entire word is counted as an index value. But it starts at 0, leaving Ruby to begin at 1 unlike JavaScript
+// b) Verify and explain: Ruby. As an array, the whole this is zero-indexed. Each value in the element is counted as an index value. But it starts at 0, leaving Ruby to begin at index 1.
 
 // --------------------4) What will this log?
 
 const weekendDays = ["saturday", "sunday"]
-console.log(weekendDays.toUpperCase())
+//console.log(weekendDays.toUpperCase())
 
-// a) Your answer: "saturday" will become "Saturday" & "sunday" will become "Sunday"
-// b) Verify and explain: ".toUpperCase" is not a function.
+// a) Your answer: "saturday" will become "Saturday" & "sunday" will become "Sunday" through the built-in method of .toUpperCase
+// b) Verify and explain: Received a TypeError message stating ".toUpperCase" is not a function. I believe this has to do with the values in each indivudal string that are arranged in the array. I do not know.
 
 // --------------------5) What will this log?
 
 const dataTypes = ["number", "string", "Boolean", "undefined"]
-// console.log(typeof dataTypes.length)
+//console.log(typeof dataTypes.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: TypeError message will pop up. typeof is not connected to dataTypes with (), annotating where the seperation of objects/variables begins. It should look like console.log(typeof(dataTypes.length)). typeOf will return the "type" of the value that was assigned in the element. 
+// b) Verify and explain: output: Number. The console.log function was looking at the first index value of the array.
