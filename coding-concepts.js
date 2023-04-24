@@ -17,38 +17,43 @@ const colors = ["tangerine", "magenta", "lilac", "daffodil"]
 const cohort = "LEARN 2023"
 // console.log(cohort.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: 10
+
+// b) Verify and explain: The output was 10. Length gives a numerical value to the character length of the value, including spaces. 
 
 // --------------------2) What will this log?
 
 const greeting = "Hello World!"
-// console.log(greeting[4])
+//console.log(greeting[4])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: o
+
+// b) Verify and explain: The answer was o. 4 indicates the index value of the datatype. Index value starts at 0. 4 is where the 'o' in 'Hello' is oriented.
 
 // --------------------3) What will this log?
 
 const languages = ["JavaScript", "Ruby", "Python", "C++"]
 const index = 1
-// console.log(languages[index])
+//console.log(languages[index])
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: Javascript
+
+// b) Verify and explain: Ruby. As an array, the whole this is zero-indexed. Each value in the element is counted as an index value. But it starts at 0, leaving Ruby to begin at index 1.
 
 // --------------------4) What will this log?
 
 const weekendDays = ["saturday", "sunday"]
-// console.log(weekendDays.toUpperCase())
+//console.log(weekendDays.toUpperCase())
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: "saturday" will become "Saturday" & "sunday" will become "Sunday" through the built-in method of .toUpperCase
+
+// b) Verify and explain: Received a TypeError message stating ".toUpperCase" is not a function. I believe this has to do with the values in each indivudal string that are arranged in the array.
 
 // --------------------5) What will this log?
 
 const dataTypes = ["number", "string", "Boolean", "undefined"]
-// console.log(typeof dataTypes.length)
+//console.log(typeof dataTypes.length)
 
-// a) Your answer:
-// b) Verify and explain:
+// a) Your answer: TypeError message will pop up. typeof is not connected to dataTypes with (), annotating where the seperation of objects/variables begins. It should look like console.log(typeof(dataTypes.length)). typeOf will return the "type" of the value that was assigned in the element. 
+
+// b) Verify and explain: output: Number. The console.log function will read the .length and output the length, which is the first element in the array. Length does not read each character as it does with a string, rather it reads the entire element in the parameter, in order, starting from the left to the right.
