@@ -84,13 +84,13 @@ const padres1998WorldSeriesRuns = [6, 3, 5, 3]
 
 // Pseudo code:
 //input:  var revCharlie = currentcohort.reverse
-//output:
+//output: cannot access 'currentCohort' before initilization at Object
 //process: create a variable that will allow the function to store the output in
 //use the .reverse method to reverse the string
 //console.log the revCharlie variable
 
-//let revCharlie = currentCohort.reverse()
-//console.log(revCharlie())
+// let revCharlie = currentCohort.reverse()
+// console.log(revCharlie())
 
 const currentCohort = "Charlie 2023"
 // Expected output: "3202 eilrahC"
@@ -98,14 +98,19 @@ const currentCohort = "Charlie 2023"
 // --------------------4) Create the code that will return the last index of the given value from the array using the test variables provided below.
 
 // Pseudo code:
+//input: const lastNum, .lastIndexOf, 42, 10
+//output:7, 8
+//process: create variable lastNum, add .lastindexOf to variable numberOf Connections, input givenvalue1/givenvalue2
 
-const numberOfConnections = [13, 34, 42, 5, 5, 10, 27, 42, 10]
 
 const givenValue1 = 42
 // Expected output: 7
-
 const givenValue2 = 10
 // Expected output: 8
+
+const numberOfConnections = [13, 34, 42, 5, 5, 10, 27, 42, 10]
+const lastNum = numberOfConnections.lastIndexOf(10)
+console.log(lastNum)
 
 // --------------------5) Create the code that will sort all the numbers in an array from largest to smallest. Use the test variables provided below.
 
